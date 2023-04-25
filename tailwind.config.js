@@ -5,7 +5,10 @@ export default {
 		extend: {
 			container: {
 				center: true
-			}
+			},
+		},
+		fontFamily: {
+			"sans": ["Inter", "sans-serif"]
 		}
 	},
 	plugins: []
