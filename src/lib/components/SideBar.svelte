@@ -30,6 +30,7 @@
         <img src="{closeIcon}" alt="Close" class="w-8 h-8 transition-all duration-300 invert hover:invert-[.50]">
     </button>
     <form action="" class="flex flex-col gap-y-5 mt-10">
+        <input type="hidden" value="{serviceData.service_id}">
        <div>
            <label for="name" class="sidebar-label">Hizmet Adı</label>
            <input type="text" id="name" bind:value={serviceData.name} class="sidebar-input">
